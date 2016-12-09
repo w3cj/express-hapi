@@ -5,5 +5,9 @@
   "main": "index.js",
   "keywords": [],
   "author": "w3cj <hello@cjr.co.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3cj/express-hapi.git"
+  }
 }

@@ -2,6 +2,14 @@
 
 Add a route method to an express app or router to create routes in a similar fashion to hapi.js
 
+## Install
+
+```sh
+npm install --save express-hapi
+# or
+yarn add express-hapi
+```
+
 ## Usage
 
 ```js
@@ -11,7 +19,7 @@ const expressHapi = require('express-hapi');
 const app = express();
 expressHapi(app); // Add the route method to app
 
-// Create an express route using the added route method
+// Create a route using the added route method
 app.route({  
     method: 'GET',
     path: '/',
