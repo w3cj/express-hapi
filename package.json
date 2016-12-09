@@ -1,6 +1,6 @@
 {
   "name": "express-hapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a route method to an express app or router to create routes in a similar fashion to hapi.js",
   "main": "index.js",
   "keywords": [],

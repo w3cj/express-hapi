@@ -28,7 +28,14 @@ app.route({
         message: 'I\'m so hapi!'
       });
     }
-})
+});
+
+// Above is equivalent to:
+app.get('/', (req, res, next) => {
+  res.json({
+    message: 'I\'m so hapi!'
+  });
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () =>{
